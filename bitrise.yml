@@ -48,7 +48,7 @@ workflows:
         - root_directory_input: "/"
         - command_input: mvn test
         - kobi_apikey_input: "$KOB_APIKEY_PROD"
-        - executor_password_input: "$EXECUTOR_PASSWORD"
+        - executor_password_input: "K0bit0n@2019"
         - kobi_username_input: thuongdo3
     - script:
         inputs:

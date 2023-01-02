@@ -47,9 +47,9 @@ workflows:
         - app_id_input: kobiton-store:91041
         - root_directory_input: "/"
         - command_input: mvn test
-        - kobi_apikey_input: "$KOB_APIKEY_PROD"
-        - executor_password_input: "K0bit0n@2019"
-        - kobi_username_input: thuongdo3
+        - kobi_apikey_input: 15a9ea3f-38fb-450c-9706-08a72ed71950
+        - executor_password_input: K0bit0n@2019
+        - kobi_username_input: gyanadeeps
     - script:
         inputs:
         - content: |
